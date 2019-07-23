@@ -1,0 +1,26 @@
+scen templet
+event setup templet
+	counter
+	timer
+	external
+	collision
+callback templet
+	scen swithch
+	score x2
+	
+scenIndex	eventType	Gclass1		Gclass2								eventpnt		cbtp	gclass	gclass	//clone
+						pgclass		cnt			cnt_rst		onceflag							gclass	//show
+						cnt			cnt_top		triger_side										gclass	//hide
+						monitor																	gclass	sizex	sizey 	locx	locy	//new
+																								gclass	shapemap	//add shape
+																								gclass	value	//movex
+																								gclass	value	//movey
+																								gclass	//flplr
+																								gclass	//flpud
+																								gclass	value	//flplr2
+																								gclass 	value 	//flpud2
+																								gclass	locx	locy	//setlocation	
+																								mode	gclass	//del
+																								scenIndex	//scen switch
+																								eventIndex	//del
+																								eventIndex	//new
