@@ -7,7 +7,7 @@
 #include "TIM.H"
 #include "ADC.h"
 #include "WavPlay.h"
-
+123456
 #define angabs(x)     (((x)>0)?(x):-(x))
 /*外部定义的模拟量采集数据，根据这个数据生成随机数*/
 extern __IO u16 AD_Value[CH_N*Sampling_N];
